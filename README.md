@@ -4,9 +4,9 @@ This repository is associated with the paper: [Are Medium-Sized Transformer Mode
 
 ## 📑 Table of Contents
 
-- [How to Set Up the Environment](#-how-to-set-up-the-environment)
-- [Data Processing](#-data-processing)
-- [Training LESABert](#-training-lesabert)
+- [⚙️ How to Set Up the Environment](#-how-to-set-up-the-environment)
+- [🧑‍⚕️ Data Processing](#-data-processing)
+- [🚀 Training LESABert](#-training-lesabert)
 - [📄 License](#-license)
 - [📚 Citation](#-citation)
 
