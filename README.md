@@ -4,9 +4,9 @@ This repository is associated with the paper: [Are Medium-Sized Transformer Mode
 
 ## 📑 Table of Contents
 
-- [How to Set Up the Environment](#how-to-set-up-the-environment)
-- [Data Processing](#data-processing)
-- [Training LESABert](#training-lesabert)
+- [How to Set Up the Environment](#-how-to-set-up-the-environment)
+- [Data Processing](#-data-processing)
+- [Training LESABert](#-training-lesabert)
 - [📄 License](#-license)
 - [📚 Citation](#-citation)
 
@@ -36,7 +36,7 @@ This repository is associated with the paper: [Are Medium-Sized Transformer Mode
 
 ## 🧑‍⚕️ Data Processing
 
-Before running the developed models or executing the `train.ipynb` notebook, users must first preprocess the medical data.
+Before running the developed models or executing the `Train.ipynb` notebook, users must first preprocess the medical data.
 
 1. Begin by creating a folder named `sadcsip`. Inside this folder, place the two private files:
    - `NLP_data/2020.06.03_CHUSJ_Data_PatientID.csv`
@@ -50,7 +50,7 @@ Once completed, the required datasets will be generated in the correct format wi
 
 ## 🚀 Training LESABert
 
-Now everything is ready to run the training process. Follow the instructions in the `train.ipynb` notebook for detailed steps on training the LESABert model with the preprocessed data.
+Now everything is ready to run the training process. Follow the instructions in the `Train.ipynb` notebook for detailed steps on training the LESABert model with the preprocessed data.
 
 ## 📄 License
 
@@ -63,13 +63,13 @@ You are free to use, copy, modify, merge, publish, distribute, sublicense, and/o
 If you use this code or dataset in your research, please cite:
 
 **Plain-text citation:**  
-Lompo, A., & Le, T.-D. (2025). *medical\_token\_embedding: Preprocessing and Embedding of Medical Notes*. GitHub repository: https://github.com/aser97/medical_token_embedding
+Lompo, A., Le, T.-D., Jouvet, P., & Noumeir, R. (2025). *medical\_token\_embedding: Preprocessing and Embedding of Medical Notes*. GitHub repository: https://github.com/sadc-lab/medical\_token\_embedding
 
 **BibTeX:**
 ```bibtex
 @misc{lompo2025medicaltokenembedding,
-  author       = {Aser Lompo and Thanh-Dung Le},
-  title        = {medical_token_embedding: Preprocessing and Embedding of Medical Notes},
+  author       = {Aser Lompo and Thanh-Dung Le and Philippe Jouvet and Rita Noumeir},
+  title        = {medical\_token\_embedding: Preprocessing and Embedding of Medical Notes},
   year         = {2025},
-  howpublished = {\url{https://github.com/aser97/medical_token_embedding}},
+  howpublished = {\url{https://github.com/sadc-lab/medical\_token\_embedding}},
 }
